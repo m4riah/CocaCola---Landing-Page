@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Comfortaa', cursive;}
+    font-family: 'Comfortaa', cursive;
+}
 section{
     position: relative;
     width: 100%;
@@ -50,6 +51,10 @@ header .navigation li a{
     text-decoration: none;
     margin-left: 40px;
 }
+header .navigation li a:hover{
+    color: #161616;
+    transform: translateY(-2px);
+}
 .content {
     position: relative;
     width: 100%;
@@ -67,7 +72,10 @@ header .navigation li a{
     font-size: 4em;
     margin-bottom: 10px;
     line-height: 1.4em;
-    font-weight: 700;
+    font-weight: 500;
+    font-family: adobe-bengali, sans-serif;
+    font-style: normal;
+    font-weight: "bold";
 }
 .content .textBox p{
     color: #fff;
@@ -128,7 +136,7 @@ header .navigation li a{
     justify-content: center;
 }
 .content .imgBox{
-    width: 800px;
+    width: 700px;
     display: flex;
     justify-content: flex-end;
 }
@@ -210,9 +218,5 @@ header .navigation li a{
         background-position:center;
     }
 
-}
-
-h2{
-    font-family: 'Rubik', sans-serif;
 }
 
